@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Librería del Alma</title>
+  <link rel="stylesheet" href="/static/CSS/main.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Josefin+Sans:wght@300;400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo">Librería del Alma</a>
+    <ul class="nav-links">
+      <li><a href="/templates/romance.html" class="nav-item">Romance</a></li>
+      <li><a href="/templates/fantasia.html" class="nav-item">Fantasía</a></li>
+      <li><a href="/templates/romantasy.html" class="nav-item">Romantasy</a></li>
+      <li><a href="/templates/distopia.html" class="nav-item">Distopía</a></li>
+    </ul>
+    <button class="nav-cart">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" />
+        <line x1="3" y1="6" x2="21" y2="6" />
+        <path d="M16 10a4 4 0 01-8 0" />
+      </svg>
+      <span>0</span>
+    </button>
+  </nav>
+
+
+  <section class="hero">
+    <div class="hero-left">
+      <p class="hero-tag"><span class="tag-line"></span> Colección Curada · 2024</p>
+      <h1 class="hero-title">Mundos que<br>viven en <em>papel</em></h1>
+      <p class="hero-sub">Sumérgete en universos donde el amor desafía reinos, las hadas conspiran bajo la luz de la
+        luna y los corazones laten al ritmo de cada página.</p>
+      <a href="/templates/romance.html" class="btn-primary">Explorar Catálogo →</a>
+    </div>
+    <div class="hero-right">
+      <div class="book-stack">
+        <div class="book book-gold">
+          <div class="book-spine"></div>
+          <div class="book-cover"><span>El Jardín<br>de Cenizas</span></div>
+        </div>
+        <div class="book book-wine">
+          <div class="book-spine"></div>
+          <div class="book-cover"><span>Amor entre<br>Ruinas</span></div>
+        </div>
+        <div class="book book-teal">
+          <div class="book-spine"></div>
+          <div class="book-cover"><span>A Corte de<br>Rosas y Espinas</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="categories">
+    <div class="section-header">
+      <p class="section-tag">Explorar por género</p>
+      <h2>Encuentra tu<br>próxima <em>historia</em></h2>
+    </div>
+    <div class="categories-grid">
+      <a href="/tamplates/romance.html" class="cat-card cat-romance">
+        <div class="cat-overlay"></div>
+        <div class="cat-content">
+          <span class="cat-number">01</span>
+          <h3>Romance</h3>
+          <p>Amores prohibidos, segundas oportunidades y corazones que laten más fuerte.</p>
+          <span class="cat-link">Ver colección →</span>
+        </div>
+      </a>
+      <a href="/tamplates/fantasia.html" class="cat-card cat-fantasia">
+        <div class="cat-overlay"></div>
+        <div class="cat-content">
+          <span class="cat-number">02</span>
+          <h3>Fantasía</h3>
+          <p>Dragones, magia antigua y héroes que cambian el destino de mundos enteros.</p>
+          <span class="cat-link">Ver colección →</span>
+        </div>
+      </a>
+      <a href="/tamplates/romantasy.html" class="cat-card cat-romantasy">
+        <div class="cat-overlay"></div>
+        <div class="cat-content">
+          <span class="cat-number">03</span>
+          <h3>Romantasy</h3>
+          <p>El amor y la magia entrelazados en historias que no puedes soltar.</p>
+          <span class="cat-link">Ver colección →</span>
+        </div>
+      </a>
+      <a href="/templates/distopia.html" class="cat-card cat-distopia">
+        <div class="cat-overlay"></div>
+        <div class="cat-content">
+          <span class="cat-number">04</span>
+          <h3>Distopía</h3>
+          <p>Mundos rotos, rebeliones y almas que se niegan a rendirse ante el sistema.</p>
+          <span class="cat-link">Ver colección →</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+
+  <section class="featured">
+    <div class="section-header">
+      <p class="section-tag">Más leídos este mes</p>
+      <h2>Los favoritos de<br><em>nuestra comunidad</em></h2>
+    </div>
+    <div class="books-grid">
+      <div class="book-card" data-genre="Romantasy">
+        <div class="book-card-cover"
+          style="background-image: url(/static/imagen/Corte_espinas.png); background-position: center ; background-size: contain; background-repeat: no-repeat;">
+          <div class="book-card-inner">
+            <span>A Corte de Rosas y Espinas</span>
+          </div>
+        </div>
+        <div class="book-card-info">
+          <span class="book-genre">Romantasy</span>
+          <h4>A Corte de Rosas y Espinas</h4>
+          <p class="book-author">Sarah J. Maas</p>
+          <div class="book-rating">★★★★★</div>
+          <div class="book-footer">
+            <span class="book-price">$118.000</span>
+            <button class="btn-add">+ Agregar</button>
+          </div>
+        </div>
+      </div>
+      <div class="book-card" data-genre="Distopía">
+        <div class="book-card-cover"
+          style="background-image: url(/static/imagen/Juegos_hambre.png); background-position: center ; background-size: contain; background-repeat: no-repeat;">
+          <div class="book-card-inner">
+            <span>Los Juegos del Hambre</span>
+          </div>
+        </div>
+        <div class="book-card-info">
+          <span class="book-genre">Distopía</span>
+          <h4>Los Juegos del Hambre</h4>
+          <p class="book-author">Suzanne Collins</p>
+          <div class="book-rating">★★★★★</div>
+          <div class="book-footer">
+            <span class="book-price">$120.000</span>
+            <button class="btn-add">+ Agregar</button>
+          </div>
+        </div>
+      </div>
+      <div class="book-card" data-genre="Fantasía">
+        <div class="book-card-cover"
+          style="background-image: url(/static/imagen/Imperio_final.png); background-position: center ; background-size: contain; background-repeat: no-repeat;">
+          <div class="book-card-inner">
+            <span>El Imperio Final</span>
+          </div>
+        </div>
+        <div class="book-card-info">
+          <span class="book-genre">Fantasía</span>
+          <h4>El Imperio Final</h4>
+          <p class="book-author">Brandon Sanderson</p>
+          <div class="book-rating">★★★★★</div>
+          <div class="book-footer">
+            <span class="book-price">$125.000</span>
+            <button class="btn-add">+ Agregar</button>
+          </div>
+        </div>
+      </div>
+      <div class="book-card" data-genre="Romance">
+        <div class="book-card-cover"
+          style="background-image: url(/static/imagen/Orgullo_prejuicio.png); background-position: center ; background-size: contain; background-repeat: no-repeat;">
+          <div class="book-card-inner">
+            <span>Orgullo y Prejuicio</span>
+          </div>
+        </div>
+        <div class="book-card-info">
+          <span class="book-genre">Romance</span>
+          <h4>Orgullo y Prejuicio</h4>
+          <p class="book-author">Jane Austen</p>
+          <div class="book-rating">★★★★★</div>
+          <div class="book-footer">
+            <span class="book-price">$105.000</span>
+            <button class="btn-add">+ Agregar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="banner-editorial">
+    <div class="banner-content">
+      <p class="banner-tag">Selección especial</p>
+      <h2>La novela que<br>todos están <em>leyendo</em></h2>
+      <p>Este mes, nuestra selección editorial te lleva a un mundo donde la magia y el amor se convierten en armas.
+        <strong>"El Trono de Cristal"</strong> es la historia que cambiará lo que sabes sobre la fantasía.
+      </p>
+      <a href="/templates/fantasia.html" class="btn-primary">Descubrir más</a>
+    </div>
+    <div class="banner-book">
+      <div class="featured-book-cover">
+        <div class="featured-book-spine"></div>
+        <div class="featured-book-face">
+          <p class="featured-book-title">El Trono<br>de Cristal</p>
+          <p class="featured-book-author">Sarah J. Maas</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reviews">
+    <div class="section-header">
+      <p class="section-tag">Lo que dicen nuestros lectores</p>
+      <h2>Historias que<br><em>transforman</em></h2>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Librería del Alma no es solo una tienda, es una experiencia. Cada recomendación ha sido
+          perfecta. No puedo parar de leer desde que los descubrí."</p>
+        <div class="review-author">
+          <div class="review-avatar">V</div>
+          <div>
+            <strong>Valentina R.</strong>
+            <span>Lectora desde 2022</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-card review-card--featured">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"Encontré aquí libros que jamás hubiera descubierto en otro lugar. La curaduría por
+          géneros es impecable y los envíos llegaron antes de lo esperado."</p>
+        <div class="review-author">
+          <div class="review-avatar">S</div>
+          <div>
+            <strong>Sofía M.</strong>
+            <span>Lectora VIP</span>
+          </div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="review-stars">★★★★★</div>
+        <p class="review-text">"El club de lectura mensual es lo mejor que pudo pasarme. Compartir cada libro con otras
+          personas que lo aman tanto como yo es mágico."</p>
+        <div class="review-author">
+          <div class="review-avatar">C</div>
+          <div>
+            <strong>Camila P.</strong>
+            <span>Club de lectura</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <div class="newsletter-inner">
+      <div class="newsletter-text">
+        <p class="section-tag">Únete a nuestra comunidad</p>
+        <h2>Recibe recomendaciones<br>hecha a tu <em>medida</em></h2>
+        <p>Cada semana, las mejores novedades, reseñas y descuentos exclusivos para lectores apasionados.</p>
+      </div>
+      <form class="newsletter-form" onsubmit="return false;">
+        <input type="email" placeholder="Tu correo electrónico" class="newsletter-input" />
+        <button type="submit" class="btn-primary">Suscribirme</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p class="logo">Librería del Alma</p>
+        <p>Mundos que viven en papel.<br>Medellín, Colombia.</p>
+      </div>
+      <div class="footer-links">
+        <h5>Géneros</h5>
+        <ul>
+          <li><a href="/templates/romance.html">Romance</a></li>
+          <li><a href="/templates/fantasia.html">Fantasía</a></li>
+          <li><a href="/templates/romantasy.html">Romantasy</a></li>
+          <li><a href="/templates/distopia.html">Distopía</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h5>Librería</h5>
+        <ul>
+          <li><a href="#">Sobre nosotros</a></li>
+          <li><a href="#">Club de lectura</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h5>Síguenos</h5>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">TikTok</a></li>
+          <li><a href="#">Goodreads</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Librería del Alma · Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>

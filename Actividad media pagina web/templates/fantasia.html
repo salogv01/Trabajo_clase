@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fantasía — Librería del Alma</title>
+  <link rel="stylesheet" href="/static/CSS/main.css" />
+  <link rel="stylesheet" href="/static/CSS/genre.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Josefin+Sans:wght@300;400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <a href="../index.html" class="logo">Librería del Alma</a>
+    <ul class="nav-links">
+      <li><a href="/templates/romance.html" class="nav-item">Romance</a></li>
+      <li><a href="/templates/fantasia.html" class="nav-item active">Fantasía</a></li>
+      <li><a href="/templates/romantasy.html" class="nav-item">Romantasy</a></li>
+      <li><a href="/templates/distopia.html" class="nav-item">Distopía</a></li>
+    </ul>
+    <button class="nav-cart"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="1.5">
+        <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" />
+        <line x1="3" y1="6" x2="21" y2="6" />
+        <path d="M16 10a4 4 0 01-8 0" />
+      </svg><span>0</span></button>
+  </nav>
+
+  <header class="page-header" data-bg-text="Magia">
+    <p class="page-header-tag">Colección Fantasía</p>
+    <h1>Mundos donde<br>la <em>magia</em> es real</h1>
+    <p>Dragones milenarios, sistemas de magia únicos y héroes que cargan el peso de mundos enteros sobre sus hombros.
+    </p>
+  </header>
+
+  <section class="genre-section">
+    <div class="genre-filters">
+      <button class="filter-btn active">Todos</button>
+      <button class="filter-btn">Alta Fantasía</button>
+      <button class="filter-btn">Fantasía Épica</button>
+      <button class="filter-btn">Fantasía Urbana</button>
+      <button class="filter-btn">Grimdark</button>
+    </div>
+
+    <div class="genre-grid">
+
+      <div class="book-card reveal">
+        <div class="book-card-cover"
+          style="background-image: url(/static/imagen/Imperio_final.png); background-position: center ; background-size: contain; background-repeat: no-repeat;">
+          <div class="book-card-inner"><span>El Imperio Final</span></div>
+        </div>
+        <div class="book-card-info">
+          <span class="book-genre">Fantasía Épica</span>
+          <h4>El Imperio Final</h4>
+          <p class="book-author">Brandon Sanderson</p>
+          <div class="book-rating">★★★★★</div>
+          <div class="book-footer"><span class="book-price">$45.000</span><button class="btn-add">+ Agregar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="book-card reveal">
+        <div class="book-card-cover" style="background: linear-gradient(150deg, #0d1a2a, #1a3a5a);">
+          <div class="book-card-inner"><span>El Trono de Cristal</span></div>
+        </div>
+        <div class="book-card-info">
+          <span class="book-genre">Alta Fantasía</span>
+          <h4>El Trono de Cristal</h4>
+          <p class="book-author">Sarah J. Maas</p>
+          <div class="book-rating">★★★★★</div>
+          <div class="book-footer"><span class="book-price">$42.000</span><button class="btn-add">+ Agregar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="book-card reveal">
+        <div class="book-card-cover" style="background: linear-gradient(150deg, #1a1510, #3a2a10);">
+          <div class="book-card-inner"><span>El Nombre del Viento</span></div>
+        </div>
+        <div class="book-card-info">
+          <span class="book-genre">Fantasía Épica</span>
+          <h4>El Nombre del Viento</h4>
+          <p class="book-author">Patrick Rothfuss</p>
+          <div class="book-rating">★★★★★</div>
+          <div class="book-footer"><span class="book-price">$46.000</span><button class="btn-add">+ Agregar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="book-card reveal">
+        <div class="book-card-cover" style="background: linear-gradient(150deg, #0a1a0a, #1a4a1a);">
+          <div class="book-card-inner"><span>El Señor de los Anillos</span></div>
+        </div>
+        <div class="book-card-info">
+          <span class="book-genre">Fantasía Clásica</span>
+          <h4>El Señor de los Anillos</h4>
+          <p class="book-author">J.R.R. Tolkien</p>
+          <div class="book-rating">★★★★★</div>
+          <div class="book-footer"><span class="book-price">$55.000</span><button class="btn-add">+ Agregar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="book-card reveal">
+        <div class="book-card-cover" style="background: linear-gradient(150deg, #2a1a3a, #5a3070);">
+          <div class="book-card-inner"><span>Los Reinos Oscuros</span></div>
+        </div>
+        <div class="book-card-info">
+          <span class="book-genre">Grimdark</span>
+          <h4>Los Reinos Oscuros</h4>
+          <p class="book-author">Joe Abercrombie</p>
+          <div class="book-rating">★★★★☆</div>
+          <div class="book-footer"><span class="book-price">$44.000</span><button class="btn-add">+ Agregar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="book-card reveal">
+        <div class="book-card-cover" style="background: linear-gradient(150deg, #1a2a1a, #2a5040);">
+          <div class="book-card-inner"><span>La Breve Historia del Muerto</span></div>
+        </div>
+        <div class="book-card-info">
+          <span class="book-genre">Fantasía Urbana</span>
+          <h4>Ciudad de Huesos</h4>
+          <p class="book-author">Cassandra Clare</p>
+          <div class="book-rating">★★★★☆</div>
+          <div class="book-footer"><span class="book-price">$38.000</span><button class="btn-add">+ Agregar</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <p class="logo">Librería del Alma</p>
+        <p>Mundos que viven en papel.<br>Medellín, Colombia.</p>
+      </div>
+      <div class="footer-links">
+        <h5>Géneros</h5>
+        <ul>
+          <li><a href="romance.html">Romance</a></li>
+          <li><a href="fantasia.html">Fantasía</a></li>
+          <li><a href="romantasy.html">Romantasy</a></li>
+          <li><a href="distopia.html">Distopía</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h5>Librería</h5>
+        <ul>
+          <li><a href="#">Sobre nosotros</a></li>
+          <li><a href="#">Club de lectura</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h5>Síguenos</h5>
+        <ul>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">TikTok</a></li>
+          <li><a href="#">Goodreads</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Librería del Alma · Todos los derechos reservados</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>
